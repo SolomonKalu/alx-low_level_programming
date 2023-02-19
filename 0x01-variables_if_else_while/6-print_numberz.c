@@ -10,8 +10,8 @@ int main(void)
 
 	for (num = 32; num < 42; num++)
 	{
-		putchar(num);
+		put(num);
 	}
-	putchar('\n');
+	put('\n');
 	return (0);
 }
