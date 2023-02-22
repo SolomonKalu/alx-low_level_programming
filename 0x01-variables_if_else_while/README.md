@@ -19,3 +19,9 @@ Project 7. A program that prints the lowercase alphabet in reverse, followed by 
 Project 8. A program that prints all the numbers of base 16 in lowercase, followed by a new line.
 
 Project 9. A program that prints all possible combinations of single-digit numbers.
+
+Project 10. A program that prints all possible different combinations of two digits.
+
+Project 11. A program that prints all possible different combinations of three digits.
+
+Project 12. A program that prints all possible combinations of two two-digit numbers.
