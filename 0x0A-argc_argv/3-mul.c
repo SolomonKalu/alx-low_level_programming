@@ -11,12 +11,17 @@
 
 int main(int argc, char *argv[])
 {
-	int multiply = 0;
+	int mul = 1;
 
-	for (int i = 0; i < argc; i++)
+	if (argc != 3)
 	{
-		multiply *= atoi(argv[i]);
+		printf("Error\n");
+		return (1);
 	}
-	printf("multiply: %d\n", multiply);
+	for (int i = 1; i < argc; i++)
+	{
+		mul *= atoi(argv[i]);
+	}
+	printf("mul: %d\n", mul);
 	return(0);
 }
