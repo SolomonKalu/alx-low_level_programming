@@ -3,13 +3,12 @@
 #include <stdlib.h>
 
 /**
+ * main - it all starts here
+ * @argc: number of arguments
+ * @argv: array of pointers arguments
  *
- * @argc: argument numbers
- * @argv: array of pointer argument
- *
- * return: always 0.
+ * Return: Always 0.
  */
-
 int main(int argc, char *argv[])
 {
 	if (argc != 3)
