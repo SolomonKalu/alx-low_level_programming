@@ -2,8 +2,9 @@
 #include <stdlib.h>
 
 /**
- * @s1: the first string
- * @s2: the second string
+ * str_concat - concatenaste two strings
+ * @s1: first string
+ * @s2: second string
  *
  * Return: pointer to the concatenated string
  */
