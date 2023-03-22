@@ -7,3 +7,5 @@
 - Task 2-A function that searches for an integer.
 
 - Task 3-A program that performs simple operations.
+
+- Task 4-A program that prints the opcodes of its own main function.
