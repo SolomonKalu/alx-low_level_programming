@@ -16,18 +16,18 @@ int create_file(const char *filename, char *text_content)
 
 	fd = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
 
-	if (!filename || fd == -1)
+	if (!filename)
 		return (-1);
 
-	if (text_content)
+	if (text_content != NULL)
 	{
-		for (nl = 0; text_content[nl]; nl++)
-			;
+		for (nl = 0; text_content[nl];)
+			nl++;
 	}
 
 	flw = write(fd, text_content, nl);
 
-	if (flw == -1)
+	if (fd == -1 || flw == -1)
 		return (-1);
 
 	close(fd);
