@@ -26,7 +26,7 @@ int for_sqrt(int n, int r)
  * _sqrt_recursion - function that returns the natural square root of a number
  * @n: number to return root
  *
- * return: if natural root return 1 if not return -1
+ * Return: if natural root return 1, if not return -1
  */
 
 int _sqrt_recursion(int n)
