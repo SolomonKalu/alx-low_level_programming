@@ -1,8 +1,9 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
 /**
- * whats_my_name - to print a name
+ * whatsmyname - to print a name and new line
  * @argc: argument count
  * @argv: argument vector
  *
