@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * whatsmyname - to print a name and new line
+ * main - to print a name and new line
  * @argc: argument count
  * @argv: argument vector
  *
