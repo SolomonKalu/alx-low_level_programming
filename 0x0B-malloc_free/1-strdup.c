@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * strdup - returns a pointer to new space containing a copy of string
+ * _strdup - returns a pointer to new space containing a copy of string
  * @str: character to dup
  *
  * Return: pointer to the duplicated string, NULL if insufficent mem
