@@ -4,14 +4,16 @@
 
 /**
  * malloc_checked - allocates memory using malloc
- * @b: unsigned int
+ * @b: byte
  *
- * Return: Nothing
+ * Return: pointer
  */
 
 void *malloc_checked(unsigned int b)
 {
-	void *ptr = malloc(b);
+	void *ptr;
+
+	ptr = malloc(b);
 
 	if (ptr == NULL)
 	{
