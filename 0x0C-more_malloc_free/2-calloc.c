@@ -20,11 +20,11 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	{
 		return (NULL);
 	}
-	if (size == 0 || nmemb == 0)
+	if (nmemb == 0 || size == 0)
 	{
 		return (NULL);
 	}
-	for (a = 0; a < (size * nmemb); ++a)
+	for (a = 0; a < (nmemb * size); ++a)
 	{
 		((char *)ptr)[a] = 0;
 	}
