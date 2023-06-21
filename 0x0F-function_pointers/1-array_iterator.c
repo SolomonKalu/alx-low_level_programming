@@ -6,6 +6,7 @@
  * array_iterator - executes a function given as a parameter
  * @size: array size
  * @action: func pointer
+ * @array: pointer to array
  *
  * Return: void
  */
@@ -16,9 +17,9 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 
 	if (array && action)
 	{
-		for ( i = 0; i < size; i++)
-	{
-		action(array[i]);
-	}
+		for (i = 0; i < size; i++)
+		{
+			action(array[i]);
+		}
 	}
 }
