@@ -9,7 +9,9 @@
  */
 int main(int argc, char *argv[])
 {
-	int (*op_func)(int, int), a, b;
+	int (*fun)(int, int);
+	int a, b;
+	int result;
 
 	if (argc != 4)
 	{
@@ -20,18 +22,13 @@ int main(int argc, char *argv[])
 	a = atoi(argv[1]);
 	b = atoi(argv[3]);
 
-	op_func = get_op_func(argv[2]);
-	if (!op_func)
+	fun = get_op_func(argv[2]);
+	if (!fun)
 	{
 		printf("Error\n");
 		exit(99);
 	}
-
-	if (!b && (argv[2][0] == '/' || argv[2][0] == '%'))
-	{
-		printf("Error\n");
-		exit(100);
-	}
-	printf("%i\n", op_func(a, b));
+	result = fun(a, b);
+	printf("%i\n", result);
 	return (0);
 }
