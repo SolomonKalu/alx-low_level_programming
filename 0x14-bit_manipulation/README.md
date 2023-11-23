@@ -1,3 +1,3 @@
 ## C - Bit manipulation
 ***
-Binary Manipulation in C
+Binary Manipulation in C..
